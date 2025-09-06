@@ -26,7 +26,7 @@ namespace SDFMS.UserInterface
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             linkLabel1.LinkVisited = true;
-            string url = "https://github.com/Movingpoint-P";
+            string url = "https://github.com/wandering-pointer";
             Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
         }
     }
